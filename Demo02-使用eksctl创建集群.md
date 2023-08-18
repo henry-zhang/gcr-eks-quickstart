@@ -13,9 +13,9 @@
 #CLUSTER_NAME 集群名称
 #AWS_REGION cn-northwest-1：宁夏区； cn-north-1：北京区
 
-AWS_REGION=cn-northwest-1
-AWS_DEFAULT_REGION=cn-northwest-1
-CLUSTER_NAME=eksworkshop
+export AWS_REGION=cn-north-1
+export AWS_DEFAULT_REGION=cn-north-1
+export CLUSTER_NAME=henzhang-eks-demo
 ```
 
 ### 1.2 集群创建
